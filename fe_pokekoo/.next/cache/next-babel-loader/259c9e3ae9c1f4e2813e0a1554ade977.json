@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Login from './loginpage';\nexport default Login;","map":{"version":3,"sources":["D:/Koomik/fe_pokekoo/pages/index.jsx"],"names":["Login"],"mappings":"AACA,OAAOA,KAAP,MAAkB,aAAlB;AAEA,eAAeA,KAAf","sourcesContent":["\r\nimport Login from './loginpage';\r\n\r\nexport default Login;"]},"metadata":{},"sourceType":"module"}
