@@ -140,7 +140,7 @@ class Registerpage extends React.Component{
              
               <StyledInput 
               type="text" 
-              placeholder="nama"
+              placeholder="name"
               required
               value={this.state.name}
               onChange={e => this.setState({ name: e.target.value })} />
@@ -159,9 +159,9 @@ class Registerpage extends React.Component{
               value={this.state.password}
               onChange={e => this.setState({ password: e.target.value })}/>
 
-              <button type="submit">BUAT AKUN</button>
+              <button type="submit">SUBMIT</button>
             
-              <Link href="/"><Registerlink><a><span>&#8592;</span><b> Sudah punya akun</b></a></Registerlink></Link>
+              <Link href="/"><Registerlink><a><span>&#8592;</span><b> Have an account?</b></a></Registerlink></Link>
           </StyledLogin>
           
      </Wrapper>

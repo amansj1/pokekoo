@@ -148,7 +148,8 @@ class Loginpage extends React.Component{
                     value={this.state.password}
                     onChange={e => this.setState({ password: e.target.value })}/>
                     <button type="submit">LOGIN</button>
-                    <Link href="/registerpage"><Registerlink>Belum punya akun? <b> Buat Akun Sekarang <span>&#8594;</span></b></Registerlink></Link>
+                    <Link href="/registerpage"><Registerlink>	
+                    Did not have an account? <b> Maka an account <span>&#8594;</span></b></Registerlink></Link>
                 </StyledLogin>
            </Wrapper>
         );
