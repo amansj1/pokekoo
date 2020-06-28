@@ -105,10 +105,8 @@ class Loginpage extends React.Component{
            
            Cookies.set('token', response.data.meta.token)
            const token = Cookies.get('token')
-
-           console.log(token);
            Router.push('/forestpage');
-           console.log(response.data);
+         
          }).catch(error => {
           alert(error.response.request.responseText);
          });
@@ -149,7 +147,7 @@ class Loginpage extends React.Component{
                     onChange={e => this.setState({ password: e.target.value })}/>
                     <button type="submit">LOGIN</button>
                     <Link href="/registerpage"><Registerlink>	
-                    Did not have an account? <b> Maka an account <span>&#8594;</span></b></Registerlink></Link>
+                    Did not have an account? <b> Make an account <span>&#8594;</span></b></Registerlink></Link>
                 </StyledLogin>
            </Wrapper>
         );
